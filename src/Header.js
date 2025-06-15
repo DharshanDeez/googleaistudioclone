@@ -85,9 +85,9 @@ export default function Header({ onHamburgerClick, onMixerClick }) {
           </button>
         </div>
         {/* Desktop Open in New Icon */}
-        <a href="#" className="hidden md:flex text-[#444] hover:text-black cursor-pointer items-center gap-1">
+        <button className="hidden md:flex text-[#444] hover:text-black cursor-pointer items-center gap-1">
           <OpenInNewIcon style={{ color: '#174ea6', fontSize: 16 }} />
-        </a>
+        </button>
         <button className="p-1.5 md:p-2 rounded-full hover:bg-[#ececec] transition">
           <SettingsIcon style={{ color: '#5f6368', fontSize: 20 }} />
         </button>

@@ -5,7 +5,6 @@ import PromptBar from "./PromptBar";
 import WhatsNewCards from "./WhatsNewCards";
 import RightSidebar from "./RightSidebar";
 import CardNavBar from "./CardNavBar";
-import ContentPasteIcon from '@mui/icons-material/ContentPaste';
 
 export default function App() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);

@@ -61,7 +61,7 @@ export default function Sidebar({ collapsed, onCollapse }) {
         {!collapsed && (
           <div className="text-xs text-gray-500 mb-4 text-left w-full">
             <svg className="inline mr-1 mb-0.5 text-gray-400" width="16" height="16" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#fbbc04" strokeWidth="2"/><path d="M12 8v4l3 3" stroke="#fbbc04" strokeWidth="2" strokeLinecap="round"/></svg>
-            This model is not stable and may<br />not be suitable for production use. <a href="#" className="text-blue-600 underline">Learn more.</a>
+            This model is not stable and may<br />not be suitable for production use. <button className="text-blue-600 underline">Learn more.</button>
           </div>
         )}
       </div>
