@@ -1,6 +1,8 @@
 # AI Studio Assignment
 
-A modern React-based web application built with Material-UI and Tailwind CSS.
+
+## Live Demo
+Visit the live application at: [https://googleaistudioclonev1.netlify.app/](https://googleaistudioclonev1.netlify.app/)
 
 ## Setup Instructions
 
@@ -49,11 +51,8 @@ The application will be available at `http://localhost:3000`
 - Progressive Web App (PWA) support
 - Material Design components
 - Tailwind CSS styling
-
-## Known Limitations
-- The application is currently in development mode
-- Some features may require additional browser permissions for PWA functionality
-- Mobile responsiveness may need further optimization
+- Real-time chat functionality
+- Multiple AI model support (Gemini Pro, Gemini Pro Vision, Gemini Ultra, PaLM 2)
 
 ## Development
 - `npm start` - Runs the app in development mode
@@ -66,4 +65,6 @@ The application supports:
 - Latest version of Chrome
 - Latest version of Firefox
 - Latest version of Safari
-- Production browsers with >0.2% market share 
+
+## Deployment
+The application is deployed on Netlify and can be accessed at [https://googleaistudioclonev1.netlify.app/](https://googleaistudioclonev1.netlify.app/)
